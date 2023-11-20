@@ -1,6 +1,6 @@
 <?php
 // connecting to database
-$conn = mysqli_connect("localhost", "root", "", "one_cause") or die("Database Error");
+$conn = mysqli_connect("donateto1cause-server.mysql.database.azure.com", "btufyinlhl", "QB8SFZNTEGKCMK26$", "one_cause") or die("Database Error");
 
 // getting user message through ajax
 $getMesg = mysqli_real_escape_string($conn, $_POST['text']);
