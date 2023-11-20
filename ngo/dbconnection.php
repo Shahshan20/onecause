@@ -1,7 +1,7 @@
 <?php
-$db_host = "localhost";
-$db_username = "root";
-$db_password = "";
+$db_host = "donateto1cause-server.mysql.database.azure.com";
+$db_username = "btufyinlhl";
+$db_password = "QB8SFZNTEGKCMK26$";
 $db_name = "one_cause";
 
 // create connection
